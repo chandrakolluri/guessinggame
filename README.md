@@ -1,2 +1,2 @@
-# ageguessinggame
+# guessinggame
 Guess your age
