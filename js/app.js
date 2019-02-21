@@ -92,4 +92,97 @@ if (partOfTheYear.toLocaleUpperCase('en-US') === "YES" || partOfTheYear.toLocale
             }    
         }
     }
-}  
+} else if (partOfTheYear.toLocaleUpperCase('en-US') === "NO" || partOfTheYear.toLocaleUpperCase('en-US') === "N")  {
+    console.log('Great! You answer is ' + partOfTheYear + '. So you born between July and December.');
+    alert("Great! You answer is " + partOfTheYear + ", so you born between July and December.");
+
+    var monthPrefixJul = prompt("Does your birth month Starts with letter J?");
+
+    if (monthPrefixJul.toLocaleUpperCase('en-US') === "YES" || monthPrefixJul.toLocaleUpperCase('en-US') === "Y") {
+       console.log('You confirmed, your birth month starts with letter J.');
+       var dateRangeJul = prompt("Does your birth date falls between 1 and 19?");
+       if (dateRangeJul.toLocaleUpperCase('en-US') === "YES" || dateRangeJul.toLocaleUpperCase('en-US') === "Y"){
+          console.log('Your birth date falls between 1 and 19');
+          alert('Thanks for your responses ' + userName + '.Your birth month is January and you Sunsign is Capricorn');
+       } else {
+           console.log('Your birth date falls between 20 and 31');
+           alert('Thanks for your responses ' + userName + '. Your birth month is January and you Sunsign is Aquarius');
+       }
+    } else {
+        var monthPrefixAug = prompt("Does your birth month Starts with letter A?");
+
+        if (monthPrefixAug.toLocaleUpperCase('en-US') === "YES" || monthPrefixAug.toLocaleUpperCase('en-US') === "Y") {
+           console.log('You confirmed, your birth month starts with letter A.');
+      
+           var dateRangeAug = prompt("Does your birth date falls between 1 and 18?");
+           if (dateRangeAug.toLocaleUpperCase('en-US') === "YES" || dateRangeAug.toLocaleUpperCase('en-US') === "Y"){
+              console.log('Your birth date falls between 1 and 18');
+              alert('Thanks for your responses ' + userName + '.Your birth month is August and you Sunsign is Aquarius');
+           } else {
+               console.log('Your birth date falls between 19 and 28 or 29');
+               alert('Thanks for your responses ' + userName + '. Your birth month is August and you Sunsign is Pisces');
+           }
+        } else {
+            var monthPrefixSep = prompt("Does your birth month Starts with letter A?");
+
+            if (monthPrefixSep.toLocaleUpperCase('en-US') === "YES" || monthPrefixSep.toLocaleUpperCase('en-US') === "Y") {
+               console.log('You confirmed, your birth month starts with letter A.');
+      
+               var dateRangeSep = prompt("Does your birth date falls between 1 and 18?");
+               if (dateRangeSep.toLocaleUpperCase('en-US') === "YES" || dateRangeSep.toLocaleUpperCase('en-US') === "Y"){
+                  console.log('Your birth date falls between 1 and 18');
+                  alert('Thanks for your responses ' + userName + '.Your birth month is August and you Sunsign is Aquarius');
+               } else {
+                   console.log('Your birth date falls between 19 and 28 or 29');
+                   alert('Thanks for your responses ' + userName + '. Your birth month is August and you Sunsign is Pisces');
+               }
+            } else {
+                var monthPrefixSep = prompt("Does your birth month Starts with letter A?");
+
+               if (monthPrefixSep.toLocaleUpperCase('en-US') === "YES" || monthPrefixSep.toLocaleUpperCase('en-US') === "Y") {
+               console.log('You confirmed, your birth month starts with letter A.');
+      
+               var dateRangeSep = prompt("Does your birth date falls between 1 and 18?");
+               if (dateRangeSep.toLocaleUpperCase('en-US') === "YES" || dateRangeSep.toLocaleUpperCase('en-US') === "Y"){
+                  console.log('Your birth date falls between 1 and 18');
+                  alert('Thanks for your responses ' + userName + '.Your birth month is August and you Sunsign is Aquarius');
+               } else {
+                   console.log('Your birth date falls between 19 and 28 or 29');
+                   alert('Thanks for your responses ' + userName + '. Your birth month is August and you Sunsign is Pisces');
+               }
+            } else {
+                var monthPrefixSep = prompt("Does your birth month Starts with letter A?");
+
+            if (monthPrefixSep.toLocaleUpperCase('en-US') === "YES" || monthPrefixSep.toLocaleUpperCase('en-US') === "Y") {
+               console.log('You confirmed, your birth month starts with letter A.');
+      
+               var dateRangeSep = prompt("Does your birth date falls between 1 and 18?");
+               if (dateRangeSep.toLocaleUpperCase('en-US') === "YES" || dateRangeSep.toLocaleUpperCase('en-US') === "Y"){
+                  console.log('Your birth date falls between 1 and 18');
+                  alert('Thanks for your responses ' + userName + '.Your birth month is August and you Sunsign is Aquarius');
+               } else {
+                   console.log('Your birth date falls between 19 and 28 or 29');
+                   alert('Thanks for your responses ' + userName + '. Your birth month is August and you Sunsign is Pisces');
+               }
+            } else {
+                var monthPrefixSep = prompt("Does your birth month Starts with letter A?");
+
+            if (monthPrefixSep.toLocaleUpperCase('en-US') === "YES" || monthPrefixSep.toLocaleUpperCase('en-US') === "Y") {
+               console.log('You confirmed, your birth month starts with letter A.');
+      
+               var dateRangeSep = prompt("Does your birth date falls between 1 and 18?");
+               if (dateRangeSep.toLocaleUpperCase('en-US') === "YES" || dateRangeSep.toLocaleUpperCase('en-US') === "Y"){
+                  console.log('Your birth date falls between 1 and 18');
+                  alert('Thanks for your responses ' + userName + '.Your birth month is August and you Sunsign is Aquarius');
+               } else {
+                   console.log('Your birth date falls between 19 and 28 or 29');
+                   alert('Thanks for your responses ' + userName + '. Your birth month is August and you Sunsign is Pisces');
+               }
+            }
+        } 
+    }
+} else {
+    console.log('Sorry, you entered answer as ' + partOfTheYear + '. It is not valid input.');
+    alert("Sorry, you need to answer only Yes or No. " + partOfTheYear + "is not a valid response.");
+    alert("Bye. Have a nice day!");
+}
